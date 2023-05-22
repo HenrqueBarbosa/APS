@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#imgcabecalho {
+    max-width: 70px;
+}
+    
+.cabecalhohome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 68, 6);
+    padding-left: 30px ;
+    padding-right: 20px;
+}
+    
+a:hover {
+        color: rgb(69, 219, 0);
+}
+    
+a {
+        text-decoration: none;
+        color: white;
+}
+    
+.linkscabecalho {
+    display: flex;
+    gap: 40px;
+    font-size: 19px;
+    padding-left: 400px;
+    color:rgb(255, 255, 255);
+}
+
+h1{
+
+    font-weight: bold;
+    font-style: italic;
+}
+
+main{
+    border-top: 2px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 180px;
+    padding-right: 180px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+
+
+
+.input-padrao {
+
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+
+    margin: 20px;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: rgba(0, 68, 6);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+
+    background-color: rgb(14, 196, 23);
+    transform: scale(1.2);
+}
+
+.footer {
+    background-color: rgba(0, 68, 6);
+    display: flex;
+    align-items: center;
+    padding-left: 30px ;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+    
+a:hover {
+        color: rgb(184, 134, 218);
+}
+    
+a {
+        text-decoration: none;
+        color: white;
+}
+    
+.linksfooter {
+    display: flex;
+    gap: 40px;
+    font-size: 19px;
+    color:rgb(255, 255, 255);
+}
+    
+#imgfooter {
+    max-width: 80px;
+    padding-left: 600px;
+}
