@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Contato </title>
+        <link rel="stylesheet"  href="styleform.css">
+        
+    </head>
+<body>
+    <header class="cabecalhohome">   
+        <div>
+            <img id="imgcabecalho" src="imgcabecalho.png">
+            <h1 id="titulohome"></h1>
+        </div>
+        <div class="linkscabecalho">
+            <a href="index.html">Página Inicial</a>
+            <a href="about.html">Sobre nós</a>
+            <a href="form.html">Fale Conosco</a>
+        </div>
+    </header> 
+        <main>
+            <form>
+                <label for="nomesobrenome"> Nome e sobrenome</label>
+                    <input type="text" id="nomesobrenome" class="input-padrao" required>
+                <label for="email"> Email</label>
+                     <input type="email" id="email" class="input-padrao" required placeholder="seuemail@hotmail.com">
+                <label for="telefone">Telefone</label>
+                 <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+                <label for="endereco" > Endereço </label>
+                <input type="text" id="endereco" class="input-padrao" required placeholder="CEP">
+                <input type="text" id="endereco" class="input-padrao" required placeholder="Bairro">
+                <input type="text" id="endereco" class="input-padrao" required placeholder="Rua n°">
+                <input type="text" id="endereco" class="input-padrao" required placeholder="Cidade">
+                <label for="select"> Estado</label>
+                <select class="input-padrao">
+                    <option> AC </option>
+                    <option> AL </option>
+                    <option> AP </option>
+                    <option> AM </option>
+                    <option> BA </option>
+                    <option> CE </option>
+                    <option> DF </option>
+                    <option> ES </option>
+                    <option> GO </option>
+                    <option> MA </option>
+                    <option> MT </option>
+                    <option> MS </option>
+                    <option> MG </option>
+                    <option> PA </option>
+                    <option> PB </option>
+                    <option> PR </option>
+                    <option> PE </option>
+                    <option> PI </option>
+                    <option> RJ </option>
+                    <option> RN </option>
+                    <option> RS </option>
+                    <option> RO </option>
+                    <option> RR </option>
+                    <option> SC </option>
+                    <option> SP </option>
+                    <option> SE </option>
+                    <option> TO </option>
+                </select>
+                <label   for="mensagem"> Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea > 
+                <fieldset>
+                    <legend> Como prefere o nosso contato?</legend>
+                    <label for="radio-email"><input type="radio" name=contato value="email" id="radio-email">Email</label>
+                    <label for="radio-telefone"><input type="radio" name=contato value="telefone" id="radio-telefone">Telefone</label>   
+                    <label for="radio-whatsapp"><input type="radio" name=contato value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                </fieldset> 
+                    <input type="submit" value="Enviar Formulário"  class="enviar" >
+            </form>
+        </main>
+        <footer class="footer">
+            <div class="linksfooter">
+                <a href="index.html">Página Inicial</a>
+                <a href="about.html">Sobre nós</a>
+                <a href="form.html">Fale Conosco</a>
+            </div>
+            <img id="imgfooter" src="imgcabecalho.png">
+        </footer>
+</body>
+</html>
